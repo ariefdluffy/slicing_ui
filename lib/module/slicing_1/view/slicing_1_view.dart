@@ -127,7 +127,7 @@ class Slicing1View extends StatefulWidget {
               height: 14.0,
             ),
             ListView.builder(
-                itemCount: 3,
+                itemCount: 5,
                 shrinkWrap: true,
                 physics: const ScrollPhysics(),
                 itemBuilder: (BuildContext context, int index) {
@@ -139,8 +139,8 @@ class Slicing1View extends StatefulWidget {
                     child: Row(
                       children: [
                         Container(
-                          height: 48,
-                          width: 48,
+                          height: 58,
+                          width: 58,
                           decoration: BoxDecoration(
                             color: item["color"],
                             borderRadius: const BorderRadius.all(
@@ -149,8 +149,8 @@ class Slicing1View extends StatefulWidget {
                               ),
                             ),
                           ),
-                          child: const Icon(
-                            Icons.developer_board,
+                          child: Icon(
+                            item["icon"],
                             size: 24.0,
                             color: Colors.white,
                           ),
@@ -223,8 +223,8 @@ class Slicing1View extends StatefulWidget {
                 children: List.generate(controller.histories.length, (index) {
                   var item = controller.histories[index];
                   return Container(
-                    height: 74,
-                    width: 74,
+                    height: 76,
+                    width: 76,
                     margin: const EdgeInsets.only(
                       right: 12.0,
                     ),
@@ -236,8 +236,8 @@ class Slicing1View extends StatefulWidget {
                         ),
                       ),
                     ),
-                    child: const Icon(
-                      Icons.developer_board,
+                    child: Icon(
+                      item["icon"],
                       size: 24.0,
                       color: Colors.white,
                     ),

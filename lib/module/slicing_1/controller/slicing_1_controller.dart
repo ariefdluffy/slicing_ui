@@ -24,6 +24,7 @@ class Slicing1Controller extends State<Slicing1View> {
       "label": "Net Banking",
       "color": Colors.blue,
       "price": "\$ 345",
+      "icon": Icons.ac_unit,
       "date": "Today"
     },
     {
@@ -31,6 +32,7 @@ class Slicing1Controller extends State<Slicing1View> {
       "label": "Net Banking",
       "color": Colors.red,
       "price": "\$ 345",
+      "icon": Icons.access_alarm,
       "date": "23 Jan 2023"
     },
     {
@@ -38,6 +40,7 @@ class Slicing1Controller extends State<Slicing1View> {
       "label": "Net Banking",
       "color": Colors.green,
       "price": "\$ 345",
+      "icon": Icons.account_box,
       "date": "24 Jan 2023"
     },
     {
@@ -45,6 +48,7 @@ class Slicing1Controller extends State<Slicing1View> {
       "label": "Net Banking",
       "color": Colors.blueAccent,
       "price": "\$ 345",
+      "icon": Icons.yard,
       "date": "24 Jan 2023"
     },
     {
@@ -52,6 +56,7 @@ class Slicing1Controller extends State<Slicing1View> {
       "label": "Net Banking",
       "color": Colors.redAccent,
       "price": "\$ 345",
+      "icon": Icons.add_box,
       "date": "24 Jan 2023"
     },
     {
