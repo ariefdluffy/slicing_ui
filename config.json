@@ -1,6 +1,12 @@
 {
     "modules": [
-        "dashboard"
+        "dashboard",
+        "slicing_1",
+        "slicing_2",
+        "slicing_3",
+        "slicing_4",
+        "slicing_5",
+        "slicing_6"
     ],
     "module_directory_name": "module",
     "experimental_mode": false,
