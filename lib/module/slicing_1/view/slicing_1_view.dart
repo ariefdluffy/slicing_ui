@@ -100,7 +100,7 @@ class Slicing1View extends StatefulWidget {
               ),
             ),
             const SizedBox(
-              height: 20.0,
+              height: 12.0,
             ),
             const Row(
               children: [
@@ -124,7 +124,7 @@ class Slicing1View extends StatefulWidget {
               ],
             ),
             const SizedBox(
-              height: 14.0,
+              height: 12.0,
             ),
             ListView.builder(
                 itemCount: 5,
@@ -213,7 +213,7 @@ class Slicing1View extends StatefulWidget {
               ],
             ),
             const SizedBox(
-              height: 12.0,
+              height: 8.0,
             ),
             SingleChildScrollView(
               controller: ScrollController(),

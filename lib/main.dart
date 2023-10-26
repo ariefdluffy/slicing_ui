@@ -1,7 +1,6 @@
 // import 'package:slicing_ui2/core.dart';
 import 'package:flutter/material.dart';
 import 'package:slicing_ui2/core.dart';
-import 'package:slicing_ui2/state_util.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Slicing UI',
       navigatorKey: Get.navigatorKey,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
